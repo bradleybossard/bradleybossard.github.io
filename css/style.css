@@ -20,13 +20,62 @@ header {
   padding-top: 10px;
 }
 
+#sun {
+/*
+  width: 120px;
+  height: 90px;
+  background-image: url('../img/test.png');
+  background-size: 100% 100%;
+*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+  background-color:#063053;
+  /* width and height can be anything, as long as they're equal */
+}
+
 section {
   height: 71%;
-  background-color: #05AFF2;
+  /*background-color: #05AFF2;*/
+  background-image:
+    linear-gradient(to top, #0000AA, #05AFF2);
 }
 
 .water-top {
   background-color: white;
+
+  /*background-size: 58px 58px;*/
+  background-size: 29px 29px;
+  /*background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px, 29px 6px, 33px 30px;*/
+  background-position: 0px 2px;
+  background-image: 
+/*
+  linear-gradient(335deg, #C90032 23px, transparent 23px),
+  linear-gradient(155deg, #C90032 23px, transparent 23px),
+  linear-gradient(335deg, #C90032 23px, transparent 23px),
+  linear-gradient(155deg, #C90032 23px, transparent 23px),
+
+  linear-gradient(335deg, #C90032 10px, transparent 10px),
+  linear-gradient(155deg, #C90032 10px, transparent 10px),
+  linear-gradient(335deg, #C90032 10px, transparent 10px),
+  linear-gradient(155deg, #C90032 10px, transparent 10px);
+*/
+  linear-gradient(335deg, #C90032 12px, transparent 12px),
+  linear-gradient(155deg, #C90032 12px, transparent 12px),
+  linear-gradient(335deg, #C90032 12px, transparent 12px),
+  linear-gradient(155deg, #C90032 12px, transparent 12px),
+
+  linear-gradient(335deg, #C90032 5px, transparent 5px),
+  linear-gradient(155deg, #C90032 5px, transparent 5px),
+  linear-gradient(335deg, #C90032 5px, transparent 5px),
+  linear-gradient(155deg, #C90032 5px, transparent 5px);
+
+
   height: 20%;
   opacity: 0.1;
 }
